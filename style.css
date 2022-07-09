@@ -1,0 +1,43 @@
+
+.bbb{
+    border-radius: 30px;
+    
+}
+
+/* .card-img-top{ */
+    /* width: 280px; */
+    /* height: 370px; */
+    /* border-radius: 30px; */
+/* } */
+.card{
+    width: 280px;
+    border-radius: 30px;
+}
+.btn:hover{
+    color: rgb(221, 9, 9);
+    background-color: yellowgreen;
+}
+.carousel-item {
+    width: 800px;
+    height: 500px;
+    border-radius: 30px;
+}
+.carousel-caption{
+    color: rgb(233, 229, 224);
+    background-color: rgb(0, 0,0,0.5);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 30px;
+    
+}
+body{
+    background-color: bisque;
+}
+.card{
+       
+    transition: transform 250ms;
+  }
+  .card:hover {
+    transform: translateY(-30px);
+    }
